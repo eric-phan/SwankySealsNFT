@@ -1,0 +1,92 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/App.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.App {
+  text-align: center;
+  font-family: "Press Start 2P", "VT323";
+  color: lightgray;
+  overflow-y: auto; /* Set overflow to auto for vertical scrolling */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.overlay {
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.moving-background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-image: url("./assets/background/ocean-bg.gif");
+  /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d7525de-b2fb-49f9-820b-23cacd4e5cb3/dd04wye-e28e4b24-da5f-4d00-bf19-f24ad3340cc3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkNzUyNWRlLWIyZmItNDlmOS04MjBiLTIzY2FjZDRlNWNiM1wvZGQwNHd5ZS1lMjhlNGIyNC1kYTVmLTRkMDAtYmYxOS1mMjRhZDMzNDBjYzMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1_oqjEN1LeXZGiqXFQDnY7w9fRQwSCH7TiSlw0AYm-Y"); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 40% 40%;
+}
+
+/* Navbar */
+
+/* Use media query to stack elements vertically on smaller screens */
+@media screen and (max-width: 1000px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    overflow-y: auto;
+    /* Set overflow to auto for vertical scrolling */
+  }
+  .rightNav {
+    flex-direction: column;
+    padding-bottom: 2rem;
+    color: gray;
+  }
+  .navElementsLeft,
+  .navElementsRight {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Styles for smaller screens (iPhone SE - 320px width) */
+@media screen and (max-width: 320px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .rightNav {
+    padding-bottom: 2rem;
+    color: gray;
+  }
+
+  .navElementsLeft,
+  .navElementsRight {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .overlay {
+    position: absolute;
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling for the overlay */
+  }
+
+  .moving-background {
+    background-position: center; /* Center the background image */
+  }
+}
