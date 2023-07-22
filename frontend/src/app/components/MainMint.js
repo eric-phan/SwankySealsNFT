@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Sealy from "../assets/sprites/seal8bit_bgrndremoved.png";
-import { ethers, BigNumber } from "ethers";
+// import { ethers, BigNumber } from "ethers";
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 // import swankySealsNFT from "./SwankySealsNFT.json";
 
@@ -49,7 +49,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
           <Text fontSize="43px" textShadow="0 5px #000000">
             Swanky Seals
           </Text>
-          <Image src={Sealy} height={200}></Image>
+          <Image src={Sealy} height={200} alt="sealy"></Image>
 
           <Text
             fontSize="30px"

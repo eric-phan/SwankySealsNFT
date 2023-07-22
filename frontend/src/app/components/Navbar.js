@@ -31,14 +31,29 @@ const Navbar = ({ accounts, setAccounts }) => {
         padding={"0 75px"}
       >
         <Link href="https://www.facebook.com">
-          <Image src={Facebook} boxsize={"42px"} margin={"0 15px"} />
+          <Image
+            src={Facebook}
+            alt={"facebook"}
+            boxsize={"42px"}
+            margin={"0 15px"}
+          />
         </Link>
         <Link href="https://www.twitter.com">
-          <Image src={Twitter} boxsize={"42px"} margin={"0 15px"} />
+          <Image
+            src={Twitter}
+            alt={"twitter"}
+            boxsize={"42px"}
+            margin={"0 15px"}
+          />
         </Link>
 
         <Link href="https://www.google.com">
-          <Image src={Email} boxsize={"42px"} margin={"0 15px"} />
+          <Image
+            src={Email}
+            alt={"google"}
+            boxsize={"42px"}
+            margin={"0 15px"}
+          />
         </Link>
       </Flex>
 
