@@ -44,7 +44,7 @@ This app is hosted at [here](https://swanky-seals-nft.vercel.app/).
 - Tech/framework to better protect sensitive variables.
 
 ### Artist credit
-- <span>Backgroudn Art by: <a href="https://www.deviantart.com/retrostetic/gallery"> Retrostetic </span>
+- <span>Background Art by: <a href="https://www.deviantart.com/retrostetic/gallery"> Retrostetic </span>
 
 ---
 
