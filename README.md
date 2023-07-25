@@ -1,4 +1,4 @@
-# The Swanky Seals NFT
+<h1 align="center"> The Swanky Seals NFT Mint Page </h1>
 <p align="center">
   <img src="frontend/src/app/assets/readme-image/SwankySealsHeroPage.JPG" alt="swankyseals" />
 </p>
