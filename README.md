@@ -9,7 +9,7 @@ This project is a frontend minting page for a sample NFT project. It features th
 
 
 ### Some Notes
-- I hope this application brings joy to fellow seal lovers, definitely had a blast building the retro, maritime-inspired theme!
+- :seal: I hope this application brings joy to fellow seal lovers, definitely had a blast building the retro, maritime-inspired theme!
 - I have disabled the use of the smart contract to protect my wallet privacy, but will do research on how to better protect sensitive variable to re-enable the smart contract on an Ethereum Testnet.
 
 
