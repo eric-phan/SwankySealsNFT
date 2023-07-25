@@ -21,7 +21,7 @@ Made with **Next.js**, **Typescript**, **Hardhat**, **ChakraUI**, and **React**.
 This app is hosted at [here](https://swanky-seals-nft.vercel.app/).
 
 ### Packages/Dependencies Utilized
-  "@chakra-ui/react": "^2.8.0",
+    "@chakra-ui/react": "^2.8.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@types/node": "20.4.3",
@@ -35,9 +35,8 @@ This app is hosted at [here](https://swanky-seals-nft.vercel.app/).
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
-  }
   
-
+  
 ### Things to add
 
 - ~~Host the client site.~~
