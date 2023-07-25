@@ -1,6 +1,6 @@
 # The Swanky Seals NFT
 <p align="center">
-  <img src="frontend/src/assets/readme-image/SwankySealsHeroPage.jpg" alt="swankyseals" />
+  <img src="frontend/src/app/assets/readme-image/SwankySealsHeroPage.JPG" alt="swankyseals" />
 </p>
 
 ### About
