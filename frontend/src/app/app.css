@@ -8,7 +8,6 @@
   text-align: center;
   font-family: "Press Start 2P", "VT323";
   color: lightgray;
-  overflow-y: auto; /* Set overflow to auto for vertical scrolling */
 }
 
 * {
@@ -22,7 +21,10 @@
   z-index: 10;
   top: 0;
   left: 0;
-  position: fixed;
+  position: relative;
+  overflow-y: auto; /* Enable vertical scrolling for the overlay */
+
+  /* Set overflow to auto for vertical scrolling */
 }
 
 .moving-background {
@@ -63,7 +65,7 @@
 }
 
 /* Styles for smaller screens (iPhone SE - 320px width) */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .navbar {
     flex-direction: column;
     text-align: center;
@@ -77,16 +79,18 @@
   .navElementsLeft,
   .navElementsRight {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .overlay {
-    position: absolute;
+    position: relative;
     height: 100%;
-    overflow-y: auto; /* Enable vertical scrolling for the overlay */
   }
 
   .moving-background {
     background-position: center; /* Center the background image */
+  }
+  .mainBox {
+    padding-top: 9rem;
   }
 }

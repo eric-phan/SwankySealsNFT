@@ -8,7 +8,7 @@ import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 // const swankySealsNFTAddress = ""
 // sample NFT address
 
-const MaintMint = ({ accounts, setAccounts }) => {
+const MainMint = ({ accounts, setAccounts }) => {
   const [mintAmount, setMintAmount] = useState(1);
   const isConnected = Boolean(accounts[0]);
 
@@ -45,7 +45,7 @@ const MaintMint = ({ accounts, setAccounts }) => {
   return (
     <Flex justify="center" align="center" height="100vh" paddingBottom="21rem">
       <Box width="520px">
-        <div>
+        <div class="mainBox">
           <Text fontSize="43px" textShadow="0 5px #000000">
             Swanky Seals
           </Text>
@@ -147,4 +147,4 @@ const MaintMint = ({ accounts, setAccounts }) => {
   );
 };
 
-export default MaintMint;
+export default MainMint;

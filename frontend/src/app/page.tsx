@@ -17,5 +17,6 @@ const Home = () => {
     </div>
   );
 };
+// npm run dev to start server
 
 export default Home;
